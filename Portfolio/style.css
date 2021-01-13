@@ -176,16 +176,6 @@ a {
     list-style: none;
   }
   
-  @media (max-width: 28.75em) {
-    .nav {
-      justify-content: center;
-    }
-  
-    .nav-list {
-      margin: 0 1rem;
-    }
-  }
-  
   .nav-list a {
     display: block;
     font-size: 50px;
@@ -196,9 +186,4 @@ a {
     background: rgb(88, 88, 88);
   }
 
-  @media (max-width: 280px) {
-    footer {
-      flex-direction: column;
-      text-align: center;
-    }
   }
