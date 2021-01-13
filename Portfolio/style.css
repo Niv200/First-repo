@@ -1,0 +1,64 @@
+*{
+    font-family: 'poppins', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .headdesign{
+    font-size:70px;
+    background-color: #33ccff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .headtext{
+    background-color: #33ccff;
+    font-size: 25px;
+    padding:  10px 0px 80px 0px;
+    text-shadow: -2px -1px #ff0000;
+  }
+  #hitext{
+    padding: 200px 200px 0px 0px;
+  }
+  #welcome-section{
+    background-color: #33ccff;
+    font-size: 20px;
+    padding:  0px 0px 60px 0px;
+  }
+  
+  #projects{
+      background-color: #33ccff;
+  }
+  
+  #project-header{
+    background-color: #303841;
+    padding: 20px 0px 20px 0px;
+    font-size: 50px;
+  }
+  
+  #project-text{
+    padding: 60px 0px 60px 0px;
+    font-size: 25px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container > ul {
+    background-color: #009999;
+    width: 230px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 35px;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 0 20px 2px #006666;
+  }
+  
+  #information-list{
+    list-style: none;
+  }
+  
+  
