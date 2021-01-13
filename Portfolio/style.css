@@ -4,7 +4,10 @@
     padding: 0;
     text-align: center;
   }
-  
+  html{
+      scroll-behavior: smooth;
+  }
+
   .button {
     border: none;
     color: white;
@@ -22,6 +25,7 @@
     background-color: #33ccff;
     text-align: center;
     font-weight: bold;
+    padding: 150px 200px 0px 0px;
   }
   .headtext{
     background-color: #33ccff;
@@ -29,17 +33,20 @@
     padding:  10px 0px 200px 0px;
     text-shadow: -2px -1px #ff0000;
   }
-  #hitext{
-    padding: 400px 200px 0px 0px;
-  }
 
   #information-list{
     list-style: none;
   }
+
+  .flex-container :hover {
+    background: rgb(17, 243, 149);
+    border-radius: 20px;
+  }
+
   #welcome-section{
     background-color: #33ccff;
     font-size: 20px;
-    padding:  0px 0px 60px 0px;
+    padding:  0px 0px 19px 0px;
   }
   
   #projects{
@@ -99,13 +106,23 @@
     padding: 50px 100px 50px 100px;
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 20px 2px #1a4933;
   }
 
-#contact{
+  .flex-item:hover {
+    background: rgb(17, 243, 149);
+    border-radius: 10px;
+  }
+
+  .link-text{
+    color: #fff;
+    text-decoration: none;
+  }
+
+ #contact{
     background-color: #33ccff;
-}
+ }
 
 #contact-header{
     background-color: #303841;
@@ -127,4 +144,61 @@
     width: 100px;
     height: 100px;
 }
+
+#footer-text{
+    background-color: black;
+    color: darkcyan;
+    padding: 5px 0px 5px 50px;
+    font-size: 20px;
+    text-align: left;
+}
   
+a {
+    text-decoration: none;
+    color:rgb(61, 220, 241);
+  }
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    padding:0px 0px 0px 50px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 50px;
+    padding: 20px 40px 20px 40px;
+  }
+  
+  .nav-list a:hover {
+    background: rgb(88, 88, 88);
+  }
+
+  @media (max-width: 280px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
