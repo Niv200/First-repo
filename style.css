@@ -1,0 +1,189 @@
+*{
+    font-family: 'poppins', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 1s;
+  }
+
+  .headdesign{
+    font-size:70px;
+    background-color: #33ccff;
+    text-align: center;
+    font-weight: bold;
+    padding: 150px 200px 0px 0px;
+  }
+  .headtext{
+    background-color: #33ccff;
+    font-size: 25px;
+    padding:  10px 0px 200px 0px;
+    text-shadow: -2px -1px #ff0000;
+  }
+
+  #information-list{
+    list-style: none;
+  }
+
+  .flex-container :hover {
+    background: rgb(17, 243, 149);
+    border-radius: 20px;
+  }
+
+  #welcome-section{
+    background-color: #33ccff;
+    font-size: 20px;
+    padding:  0px 0px 19px 0px;
+  }
+  
+  #projects{
+      background-color: #33ccff;
+  }
+  
+  #project-header{
+    background-color: #303841;
+    padding: 20px 0px 20px 0px;
+    border-style: solid;
+    border-color: black;
+    border: 5px solid black;
+    font-size: 50px;
+  }
+  
+  #project-text{
+    padding: 200px 0px 0px 0px;
+    font-size: 40px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #33ccff;
+  }
+  
+  .flex-container > ul {
+    background-color: #009999;
+    width: 300px;
+    margin: 0px auto 100px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 2px #006666;
+  }
+  
+  .link-list{
+    list-style: none;
+  }
+  
+  .flex-container-links > ul{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 150px auto 0px auto;
+    padding: 0px 0px 400px 0px;
+  }
+  
+  .flex-item{
+    font-size: 50px;
+    margin: 20px auto 20px auto;
+    background: #2fc974;
+    color: #fff;
+    display: block;
+    padding: 50px 100px 50px 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 20px 2px #1a4933;
+  }
+
+  .flex-item:hover {
+    background: rgb(17, 243, 149);
+    border-radius: 10px;
+  }
+
+  .link-text{
+    color: #fff;
+    text-decoration: none;
+  }
+
+ #contact{
+    background-color: #33ccff;
+ }
+
+#contact-header{
+    background-color: #303841;
+    padding: 20px 0px 20px 0px;
+    margin: 0px auto 100px auto;
+    border-style: solid;
+    border-color: black;
+    border: 5px solid black;
+    font-size: 50px;
+}
+
+#contact-text{
+    padding: 100px;
+    font-size: 30px;
+}
+
+#github-image{
+    padding: 100px 0px 200px 0px;
+    width: 100px;
+    height: 100px;
+}
+
+#footer-text{
+    background-color: black;
+    color: darkcyan;
+    padding: 5px 0px 5px 50px;
+    font-size: 20px;
+    text-align: left;
+}
+  
+a {
+    text-decoration: none;
+    color:rgb(61, 220, 241);
+  }
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    padding:0px 0px 0px 50px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 50px;
+    padding: 20px 40px 20px 40px;
+  }
+  
+  .nav-list a:hover {
+    background: rgb(88, 88, 88);
+  }
+
+  }
